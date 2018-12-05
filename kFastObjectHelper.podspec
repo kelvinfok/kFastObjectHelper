@@ -9,7 +9,8 @@
 Pod::Spec.new do |s|
   s.name             = 'kFastObjectHelper'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of kFastObjectHelper.'
+  s.summary          = 'Helper for creating objects faster programatically.'
+  s.swift_version    = '4.2'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +19,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+This is a helper method that creates objects such as tableviews, collectionviews, label & imageviews quicker programatically.
                        DESC
 
   s.homepage         = 'https://github.com/kelvinfok/kFastObjectHelper'
@@ -28,7 +29,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/kelvinfok/kFastObjectHelper.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.3'
 
   s.source_files = 'kFastObjectHelper/Classes/**/*'
   
@@ -37,6 +38,6 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
