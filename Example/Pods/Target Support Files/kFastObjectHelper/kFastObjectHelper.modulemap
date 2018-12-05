@@ -1,0 +1,6 @@
+framework module kFastObjectHelper {
+  umbrella header "kFastObjectHelper-umbrella.h"
+
+  export *
+  module * { export * }
+}

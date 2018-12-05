@@ -1,0 +1,16 @@
+PODS:
+  - kFastObjectHelper (0.1.0)
+
+DEPENDENCIES:
+  - kFastObjectHelper (from `../`)
+
+EXTERNAL SOURCES:
+  kFastObjectHelper:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  kFastObjectHelper: cab22c01ab735d6c936808caf8a3ec2cccbe5a03
+
+PODFILE CHECKSUM: c4a119d8851d6cc4c8709ddb490d31e8ec94b20a
+
+COCOAPODS: 1.5.3
