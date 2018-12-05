@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'kFastObjectHelper_Example' do
+  pod 'kFastObjectHelper', :path => '../'
+
+  target 'kFastObjectHelper_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
